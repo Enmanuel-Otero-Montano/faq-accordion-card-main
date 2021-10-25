@@ -109,13 +109,13 @@ body {
         grid-template-columns: 50% 50%;
         grid-template-rows: 15% 85%;
         margin: 0;
-        background-image: url(/assets/images/bg-pattern-desktop.svg);
+        background-image: url(./assets/images/bg-pattern-desktop.svg);
         background-size: cover;
         background-position: -470px -235px;
     }
 
     .section::before {
-        content: url(/assets/images/illustration-box-desktop.svg);
+        content: url(./assets/images/illustration-box-desktop.svg);
         position: absolute;
         top: 180px;
         left: -95px;
