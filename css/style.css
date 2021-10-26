@@ -104,7 +104,7 @@ body {
 
     .section {
         width: 850px;
-        min-height: 76vh;
+        height: 480px;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 15% 85%;
