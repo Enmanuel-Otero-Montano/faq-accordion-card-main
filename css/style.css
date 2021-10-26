@@ -15,7 +15,7 @@ body {
     max-width: 90%;
     margin: 125px auto 10px;
     background-color: hsl(0, 0%, 100%);
-    background-image: url(/assets/images/bg-pattern-mobile.svg);
+    background-image: url(../assets/images/bg-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-position: top center;
     border-radius: 25px;
@@ -104,21 +104,21 @@ body {
 
     .section {
         width: 850px;
-        min-height: 76vh;
+        height: 480px;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 15% 85%;
         margin: 0;
-        background-image: url(/assets/images/bg-pattern-desktop.svg);
+        background-image: url(../assets/images/bg-pattern-desktop.svg);
         background-size: cover;
         background-position: -470px -235px;
     }
 
     .section::before {
-        content: url(/assets/images/illustration-box-desktop.svg);
+        content: url(../assets/images/illustration-box-desktop.svg);
         position: absolute;
         top: 180px;
-        left: -95px;
+        left: -92px;
         z-index: 10;
     }
 
